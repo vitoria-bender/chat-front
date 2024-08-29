@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #244553;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.logo {
+    width: 80%;
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.instruction-text {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #b0c4cc;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    background-color: #204b5b;
+    border: 1px solid #4e7180;
+    color: #fff;
+    border-radius: 15px; /* Cantos mais arredondados */
+    width: 100%;
+}
+
+.form-control::placeholder {
+    color: #b0c4cc;
+}
+
+.btn-primary {
+    background-color: #2b6a82;
+    border-color: #2b6a82;
+    width: 100%;
+    border-radius: 25px; /* Cantos mais arredondados */
+}
+
+.btn-primary:hover {
+    background-color: #3a7f99;
+    border-color: #3a7f99;
+}
