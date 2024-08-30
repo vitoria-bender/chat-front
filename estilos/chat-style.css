@@ -192,9 +192,18 @@ body {
     }
 
     .chat-item {
-        padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #547393;
+    color: #FFF;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     }
-
+    
     .chat-item-avatar {
         width: 30px;
         height: 30px;
